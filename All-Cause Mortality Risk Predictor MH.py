@@ -85,7 +85,7 @@ if st.button("🔍 Predict Risk"):
 
     # 显示预测结果
     st.markdown("### 📊 Prediction Result")
-    st.success(f"**{class_name}**\n\nProbability: **{probability:.2f}%**")
+    st.success(f"**{class_name}**\n\nProbability: **{int(round(probability))}%**")
 
     # 解释部分
     st.markdown("### 🧠 SHAP Feature Contribution")
