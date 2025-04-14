@@ -43,14 +43,14 @@ model = joblib.load('rf.pkl')
 
 # 特征定义
 feature_ranges = {
-    "CRP": {"type": "numerical", "min": 0.00, "max": 15.00, "default": 0.54, "unit": "mg/dL"},
-    "eGFR": {"type": "numerical", "min": 3.00, "max": 180.00, "default": 114.78, "unit": "mL/min/1.73m²"},
-    "TyG_BMI": {"type": "numerical", "min": 100.00, "max": 800.00, "default": 394.20, "unit": ""},
-    "Age": {"type": "numerical", "min": 20, "max": 120, "default": 54, "unit": "years"},
-    "PIR": {"type": "numerical", "min": 0.00, "max": 5.00, "default": 1.84, "unit": ""},
-    "MCV": {"type": "numerical", "min": 50.0, "max": 150.0, "default": 92.9, "unit": "fL"},
-    "ALP": {"type": "numerical", "min": 0.0, "max": 700.0, "default": 93.0, "unit": "U/L"},
-    "PLT": {"type": "numerical", "min": 0.0, "max": 1000.0, "default": 192.0, "unit": "*10⁹/L"}
+    "CRP": {"type": "numerical", "min": 0.00, "max": 15.00, "default": 1.43, "unit": "mg/dL"},
+    "eGFR": {"type": "numerical", "min": 3.00, "max": 180.00, "default": 28.39, "unit": "mL/min/1.73m²"},
+    "TyG_BMI": {"type": "numerical", "min": 100.00, "max": 800.00, "default": 293.65, "unit": ""},
+    "Age": {"type": "numerical", "min": 20, "max": 120, "default": 80, "unit": "years"},
+    "PIR": {"type": "numerical", "min": 0.00, "max": 5.00, "default": 1.56, "unit": ""},
+    "MCV": {"type": "numerical", "min": 50.0, "max": 150.0, "default": 104.1, "unit": "fL"},
+    "ALP": {"type": "numerical", "min": 0.0, "max": 700.0, "default": 86.0, "unit": "U/L"},
+    "PLT": {"type": "numerical", "min": 0.0, "max": 1000.0, "default": 207.0, "unit": "*10⁹/L"}
 }
 
 # 输入区域
